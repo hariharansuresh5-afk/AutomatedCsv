@@ -32,7 +32,7 @@ export class Publish {
      await this.documentmanagement.click();
      //await ReportHelper.takeDesktopScreenshot('Matrix Generated Successfully');
      await ReportHelper.takeDesktopScreenshot('Evidence_Step_10');
-     await WaitHelper.wait(this.page, 2000);
+     await WaitHelper.wait(this.page, 1000);
      
       
     }
