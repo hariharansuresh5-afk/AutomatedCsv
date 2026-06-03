@@ -4,7 +4,7 @@ import { expect } from '@playwright/test';
 export class Project {
     constructor(page) {
         this.page = page;
-        this.orgmodcode=page.locator("//td[text()='ScrumReader']");
+        this.orgmodcode=page.locator("//td[text()='ScrumReader01']");
         this.createnewproject = page.locator("//button[normalize-space()='Create Project']");
         this.projectcode = page.locator("//input[@id='projectCode']");
         this.projectName = page.locator("//input[@id='projectName']");

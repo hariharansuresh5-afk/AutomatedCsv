@@ -3,7 +3,7 @@ import { ReportHelper } from '../utils/ReportHelper';
 export class Requirements {
     constructor(page) {
         this.page=page;
-        this.projectcodeclick = page.locator("//td[text()='ScrumYUII']");
+        this.projectcodeclick = page.locator("//td[text()='Scrum0121']");
         this.uploadButton = page.locator("//button[@aria-label='Upload file']");
         this.fileInput = page.locator('input[type="file"]');
         this.fileuploads = page.locator('//button[text()="Upload"]');

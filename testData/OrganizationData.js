@@ -1,7 +1,7 @@
 const OrganizationData = {
   Organizations: {
-    OrganizationName: "ScrumReader",
-    organizationCode: "Scrum01"
+    OrganizationName: "ScrumReader01",
+    organizationCode: "Scrum02"
   }
 };
 
