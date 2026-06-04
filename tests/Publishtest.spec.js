@@ -23,7 +23,7 @@ test('user can create Publish', async ({ browser }) => {
 
   const log = new Login(page);
   const org = new Organization(page);
-  const proj = new Project(page);
+  const proj = new Project(page,OrganizationData.Organizations.OrganizationName);
   const requirementsupload = new Requirements(page);
   const publishreq = new Publish(page);
 
