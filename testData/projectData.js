@@ -1,7 +1,7 @@
 const projectData = {
   project: {
-    projectCode: "ScrumYUII01",
-    projectName: "Scrum0121",
+    projectCode: "ScrumYUII023",
+    projectName: "Scrum01233",
     systemName: "QTP-Beta",
     gxpValue: "Yes",
     releaseName: "v30.1",
