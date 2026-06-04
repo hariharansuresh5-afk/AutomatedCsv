@@ -13,7 +13,6 @@ const OrganizationData = require('../testData/OrganizationData.js');
 
 test('user can create Publish', async ({ browser }) => {
   
-
   ReportHelper.resetScreenshotCounter();
   
   ReportHelper.setImageSize([700, 420]);  
@@ -23,7 +22,7 @@ test('user can create Publish', async ({ browser }) => {
 
   const log = new Login(page);
   const org = new Organization(page);
-  const proj = new Project(page,OrganizationData.Organizations.OrganizationName);
+  const proj = new Project(page);
   const requirementsupload = new Requirements(page);
   const publishreq = new Publish(page);
 
@@ -34,13 +33,11 @@ test('user can create Publish', async ({ browser }) => {
 
   await page.locator('select').selectOption('25');
 
-  
   await org.createOrganization(
     OrganizationData.Organizations.OrganizationName,
     OrganizationData.Organizations.organizationCode
   );
 
- 
   await proj.createproject(
     projectData.project.projectCode,
     projectData.project.projectName,
@@ -54,6 +51,5 @@ test('user can create Publish', async ({ browser }) => {
   await requirementsupload.requirementup();
   await publishreq.Publishpage();
 
- 
   await ReportHelper.generateWordReport();
 });
