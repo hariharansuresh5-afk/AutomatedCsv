@@ -10,7 +10,7 @@ test('user can create Release', async ({ page }) => {
     await page.waitForLoadState("domcontentloaded")
     await log.login('admin', 'password');
     await page.locator('select').selectOption('25');
-    await releasenew.createrelease('v28.1','2025-07-03','2026-09-14');
+    await releasenew.createrelease('v21.1','2025-07-03','2026-09-14');
     
 }
 );
