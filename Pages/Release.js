@@ -6,7 +6,7 @@ export class Release {
        this.page = page;
        this.neworganisation=page.locator("//td[text()='ScrumReader021']");
        this.newproject=page.locator("//td[text()='Scrum01233']");
-       this.orgmodcode=page.locator("//button[text()='v30.1']");
+       this.orgmodcode=page.locator("//button[text()='v28.1']");
        this.createnewrelease = page.locator("//span[text()='Create Release']");
        this.releaseName = page.locator("//input[@placeholder='Release Name']");
        this.startDate = page.locator("//label[text()='Start Date']/following::input[@type='date'][1]");
