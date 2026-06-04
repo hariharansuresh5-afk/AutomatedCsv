@@ -22,8 +22,8 @@ export class Release {
         await this.startDate.fill(startDate);
         await this.endDate.fill(endDate);
         await this.releasebutton.click();
-
+        
     }  
-   
+
 }
 
