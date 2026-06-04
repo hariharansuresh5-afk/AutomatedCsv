@@ -4,9 +4,9 @@ import { expect } from '@playwright/test';
 export class Release {
     constructor(page) {
        this.page = page;
-       this.neworganisation=page.locator("//td[text()='AutomatedReqDoc01']");
-       this.newproject=page.locator("//td[text()='Aitrackproj02']");
-       this.orgmodcode=page.locator("//button[text()='v24.1']");
+       this.neworganisation=page.locator("//td[text()='ScrumReader021']");
+       this.newproject=page.locator("//td[text()='Scrum01233']");
+       this.orgmodcode=page.locator("//button[text()='v30.1']");
        this.createnewrelease = page.locator("//span[text()='Create Release']");
        this.releaseName = page.locator("//input[@placeholder='Release Name']");
        this.startDate = page.locator("//label[text()='Start Date']/following::input[@type='date'][1]");
@@ -21,9 +21,8 @@ export class Release {
         await this.releaseName.fill(releaseName);
         await this.startDate.fill(startDate);
         await this.endDate.fill(endDate);
-        await ReportHelper.takeScreenshot(this.page, 'Requirement template Uploaded Successfully');
         await this.releasebutton.click();
-        await ReportHelper.takeScreenshot(this.page, 'Requirement template Uploaded Successfully');
+
     }  
    
 }
