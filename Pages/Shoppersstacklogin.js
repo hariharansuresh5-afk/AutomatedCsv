@@ -4,10 +4,11 @@ constructor(page) {
     this.username =  page.locator("//input[@name='First Name']");
     this.lastname= page.locator("//input[@name='Last Name']");
     this.phonenumber=page.locator("//input[@id='Phone Number']");
-    this.email=page.locator("//input[@id='Phone Number']");
-    this.password=page.locator("//input[@id='Password']");
-    this.confirmpassword=page.locator("Confirm Password");
-    this.radiobutton=page.getByRole('radio',{name:'Male'});
+    this.email=page.locator("//input[@name='Email Address']");
+    this.password=page.locator("//input[@name='password']");
+    this.confirmpassword=page.locator("//input[@name = 'Confirm Password']");
+    this.radiobutton= this.radiobutton = page.getByRole('radio', { name: 'Male', exact: true });
+
 
 }
     async Shopperstacklogin(username,lastname,phonenumber,email,password,confirmpassword){

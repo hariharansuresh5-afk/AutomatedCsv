@@ -8,3 +8,4 @@ const ShoppersstackLoginData = {
    confirmpassword : "Kalyan@123"
 }
 };
+module.exports = ShoppersstackLoginData;
