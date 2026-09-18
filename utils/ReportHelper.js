@@ -76,10 +76,10 @@ export class ReportHelper {
         linebreaks: true
       });
 
-
+      
       const evidenceMap = {};
 
-
+       
       const steps = [
         { name: 'Evidence_Step_2', max: 1 },
         { name: 'Evidence_Step_4', max: 2 },

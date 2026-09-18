@@ -1,4 +1,4 @@
-import { WaitHelper } from '../utils/waithelper';
+import { WaitHelper } from '../utils/waitHelper';
 import { ReportHelper } from '../utils/ReportHelper';
 import { expect } from '@playwright/test';
 export class Release {

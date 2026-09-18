@@ -1,5 +1,6 @@
-import { WaitHelper } from '../utils/waithelper';
+import { WaitHelper } from '../utils/waitHelper';
 import { ReportHelper } from '../utils/ReportHelper';
+
 export class Requirements {
     constructor(page) {
         this.page=page;

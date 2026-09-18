@@ -15,7 +15,7 @@ export class Organization {
    //await ReportHelper.takeDesktopScreenshot('Organization Name');
     await this.organizationCode.fill(organizationCode);
    //await ReportHelper.takeDesktopScreenshot('Organization Code');
-   await ReportHelper.takeDesktopScreenshot('Evidence_Step_4');
+    await ReportHelper.takeDesktopScreenshot('Evidence_Step_4');
     await this.create.click();
     await ReportHelper.takeDesktopScreenshot('Evidence_Step_4');
     await WaitHelper.wait(this.page, 2000);
