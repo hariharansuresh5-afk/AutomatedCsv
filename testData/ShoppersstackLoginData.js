@@ -1,8 +1,7 @@
 const ShoppersstackloginData = {
  Shopperlogin :{
-   username : "Kalyanraman",
-   password : "Kalyan@123",
-   
+   email : "wucrossossegri-6047@yopmail.com",
+   password: "Kalyan@123",
 }
 };
 module.exports = ShoppersstackloginData;

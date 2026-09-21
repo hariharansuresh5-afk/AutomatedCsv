@@ -5,7 +5,7 @@ test('user can create Publish', async ({ page }) => {
 const log = new ShoppersstackLogin(page);
 await page.goto("https://www.shoppersstack.com/user-signin");
 await log.ShopperstackLogin(
-ShoppersstackloginData.Shopperlogin.username,
+ShoppersstackloginData.Shopperlogin.email,
 ShoppersstackloginData.Shopperlogin.password,
 ShoppersstackloginData.Shopperlogin.loginbutton
 );
