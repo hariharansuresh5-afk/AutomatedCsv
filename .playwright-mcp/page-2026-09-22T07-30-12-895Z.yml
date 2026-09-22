@@ -1,0 +1,516 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e9]:
+      - heading "Navigation Menu" [level=2] [ref=e10]
+      - generic [ref=e11]:
+        - link "Homepage" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+        - generic [ref=e16]:
+          - navigation "Global" [ref=e17]:
+            - list [ref=e18]:
+              - listitem [ref=e19]:
+                - button "Platform" [ref=e21] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e22]
+              - listitem [ref=e24]:
+                - button "Solutions" [ref=e26] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e27]
+              - listitem [ref=e29]:
+                - button "Resources" [ref=e31] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e32]
+              - listitem [ref=e34]:
+                - button "Open Source" [ref=e36] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e37]
+              - listitem [ref=e39]:
+                - button "Enterprise" [ref=e41] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e42]
+              - listitem [ref=e44]:
+                - link "Pricing" [ref=e45] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to, type / to search" [ref=e48] [cursor=pointer]:
+              - img [ref=e52]
+            - link "Sign in" [ref=e55] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fhariharansuresh5-afk%2FAutomatedCsv
+              - generic [ref=e57]: Sign in
+            - link "Sign up" [ref=e58] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=hariharansuresh5-afk%2FAutomatedCsv
+              - generic [ref=e60]: Sign up
+            - button "Appearance settings" [ref=e61] [cursor=pointer]:
+              - img [ref=e63]
+  - main [ref=e68]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - img [ref=e73]
+          - link "hariharansuresh5-afk" [ref=e76] [cursor=pointer]:
+            - /url: /hariharansuresh5-afk
+          - generic [ref=e77]: /
+          - strong [ref=e78]:
+            - link "AutomatedCsv" [ref=e79] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv
+          - generic [ref=e80]: Public
+        - generic [ref=e81]:
+          - list:
+            - listitem [ref=e82]:
+              - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhariharansuresh5-afk%2FAutomatedCsv
+                - img [ref=e84]
+                - text: Notifications
+            - listitem [ref=e86]:
+              - link "Fork 0" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhariharansuresh5-afk%2FAutomatedCsv
+                - img [ref=e88]
+                - text: Fork
+                - generic "0" [ref=e90]
+            - listitem [ref=e91]:
+              - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhariharansuresh5-afk%2FAutomatedCsv
+                - img [ref=e94]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e96]: "0"
+      - navigation "Repository" [ref=e97]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Code" [ref=e100] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv
+              - img [ref=e101]
+              - generic [ref=e103]: Code
+          - listitem [ref=e104]:
+            - link "Issues" [ref=e105] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/issues
+              - img [ref=e106]
+              - generic [ref=e109]: Issues
+          - listitem [ref=e110]:
+            - link "Pull requests" [ref=e111] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/pulls
+              - img [ref=e112]
+              - generic [ref=e114]: Pull requests
+          - listitem [ref=e115]:
+            - link "Actions" [ref=e116] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/actions
+              - img [ref=e117]
+              - generic [ref=e119]: Actions
+          - listitem [ref=e120]:
+            - link "Projects" [ref=e121] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/projects
+              - img [ref=e122]
+              - generic [ref=e124]: Projects
+          - listitem [ref=e125]:
+            - link "Security and quality" [ref=e126] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/security
+              - img [ref=e127]
+              - generic [ref=e129]: Security and quality
+          - listitem [ref=e130]:
+            - link "Insights" [ref=e131] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/pulse
+              - img [ref=e132]
+              - generic [ref=e134]: Insights
+    - generic [ref=e148]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - button "master branch" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]:
+                - generic:
+                  - img
+                - generic [ref=e159]: master
+                - generic:
+                  - img
+            - generic [ref=e160]:
+              - link "Branches" [ref=e161] [cursor=pointer]:
+                - /url: /hariharansuresh5-afk/AutomatedCsv/branches
+                - generic [ref=e162]:
+                  - generic:
+                    - img
+                  - generic [ref=e163]: Branches
+              - link "Tags" [ref=e164] [cursor=pointer]:
+                - /url: /hariharansuresh5-afk/AutomatedCsv/tags
+                - generic [ref=e165]:
+                  - generic:
+                    - img
+                  - generic [ref=e166]: Tags
+          - generic [ref=e167]:
+            - generic [ref=e171]:
+              - img [ref=e173]
+              - combobox "Go to file" [ref=e175]
+            - button "Code" [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]:
+                - generic:
+                  - img
+                - generic [ref=e178]: Code
+                - generic:
+                  - img
+        - generic [ref=e180]:
+          - generic [ref=e182]:
+            - heading "Latest commit" [level=2] [ref=e183]
+            - generic [ref=e186]:
+              - heading "History" [level=2] [ref=e187]
+              - link "20 Commits" [ref=e188] [cursor=pointer]:
+                - /url: /hariharansuresh5-afk/AutomatedCsv/commits/master/
+                - generic [ref=e189]:
+                  - generic:
+                    - img
+                  - generic [ref=e190]: 20 Commits
+          - heading "Folders and files" [level=2] [ref=e191]
+          - table "Folders and files" [ref=e192]:
+            - rowgroup:
+              - row "Name Last commit message Last commit date":
+                - columnheader "Name"
+                - columnheader "Last commit message":
+                  - generic "Last commit message"
+                - columnheader "Last commit date":
+                  - generic "Last commit date"
+            - rowgroup [ref=e193]:
+              - row ".github, (Directory)" [ref=e194]:
+                - cell ".github, (Directory)" [ref=e195]:
+                  - generic [ref=e196]:
+                    - img [ref=e197]
+                    - link ".github, (Directory)" [ref=e202] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/.github
+                      - text: .github
+                - cell [ref=e203]
+                - cell [ref=e205]
+              - row ".vscode, (Directory)" [ref=e208]:
+                - cell ".vscode, (Directory)" [ref=e209]:
+                  - generic [ref=e210]:
+                    - img [ref=e211]
+                    - link ".vscode, (Directory)" [ref=e216] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/.vscode
+                      - text: .vscode
+                - cell [ref=e217]
+                - cell [ref=e219]
+              - row "Pages, (Directory)" [ref=e222]:
+                - cell "Pages, (Directory)" [ref=e223]:
+                  - generic [ref=e224]:
+                    - img [ref=e225]
+                    - link "Pages, (Directory)" [ref=e230] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/Pages
+                      - text: Pages
+                - cell [ref=e231]
+                - cell [ref=e233]
+              - row "screenshots, (Directory)" [ref=e236]:
+                - cell "screenshots, (Directory)" [ref=e237]:
+                  - generic [ref=e238]:
+                    - img [ref=e239]
+                    - link "screenshots, (Directory)" [ref=e244] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/screenshots
+                      - text: screenshots
+                - cell [ref=e245]
+                - cell [ref=e247]
+              - row "specs, (Directory)" [ref=e250]:
+                - cell "specs, (Directory)" [ref=e251]:
+                  - generic [ref=e252]:
+                    - img [ref=e253]
+                    - link "specs, (Directory)" [ref=e258] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/specs
+                      - text: specs
+                - cell [ref=e259]
+                - cell [ref=e261]
+              - row "testData, (Directory)" [ref=e264]:
+                - cell "testData, (Directory)" [ref=e265]:
+                  - generic [ref=e266]:
+                    - img [ref=e267]
+                    - link "testData, (Directory)" [ref=e272] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/testData
+                      - text: testData
+                - cell [ref=e273]
+                - cell [ref=e275]
+              - row "tests, (Directory)" [ref=e278]:
+                - cell "tests, (Directory)" [ref=e279]:
+                  - generic [ref=e280]:
+                    - img [ref=e281]
+                    - link "tests, (Directory)" [ref=e286] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/tests
+                      - text: tests
+                - cell [ref=e287]
+                - cell [ref=e289]
+              - row "utils, (Directory)" [ref=e292]:
+                - cell "utils, (Directory)" [ref=e293]:
+                  - generic [ref=e294]:
+                    - img [ref=e295]
+                    - link "utils, (Directory)" [ref=e300] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/tree/master/utils
+                      - text: utils
+                - cell [ref=e301]
+                - cell [ref=e303]
+              - row ".gitignore, (File)" [ref=e306]:
+                - cell ".gitignore, (File)" [ref=e307]:
+                  - generic [ref=e308]:
+                    - img [ref=e309]
+                    - link ".gitignore, (File)" [ref=e314] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/.gitignore
+                      - text: .gitignore
+                - cell [ref=e315]
+                - cell [ref=e317]
+              - row "AutomationReportCsvFinalReportsFinal.docx, (File)" [ref=e320]:
+                - cell "AutomationReportCsvFinalReportsFinal.docx, (File)" [ref=e321]:
+                  - generic [ref=e322]:
+                    - img [ref=e323]
+                    - link "AutomationReportCsvFinalReportsFinal.docx, (File)" [ref=e328] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/AutomationReportCsvFinalReportsFinal.docx
+                      - text: AutomationReportCsvFinalReportsFinal.docx
+                - cell [ref=e329]
+                - cell [ref=e331]
+              - row "CSV TESTCASE (version 1).xlsx, (File)" [ref=e334]:
+                - cell "CSV TESTCASE (version 1).xlsx, (File)" [ref=e335]:
+                  - generic [ref=e336]:
+                    - img [ref=e337]
+                    - link "CSV TESTCASE (version 1).xlsx, (File)" [ref=e342] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/CSV%20TESTCASE%20(version%201).xlsx
+                      - text: CSV TESTCASE (version 1).xlsx
+                - cell [ref=e343]
+                - cell [ref=e345]
+              - row "Csvplaywrighttestcase.docx, (File)" [ref=e348]:
+                - cell "Csvplaywrighttestcase.docx, (File)" [ref=e349]:
+                  - generic [ref=e350]:
+                    - img [ref=e351]
+                    - link "Csvplaywrighttestcase.docx, (File)" [ref=e356] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/Csvplaywrighttestcase.docx
+                      - text: Csvplaywrighttestcase.docx
+                - cell [ref=e357]
+                - cell [ref=e359]
+              - row "GenerationofRtmdocument1.docx, (File)" [ref=e362]:
+                - cell "GenerationofRtmdocument1.docx, (File)" [ref=e363]:
+                  - generic [ref=e364]:
+                    - img [ref=e365]
+                    - link "GenerationofRtmdocument1.docx, (File)" [ref=e370] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/GenerationofRtmdocument1.docx
+                      - text: GenerationofRtmdocument1.docx
+                - cell [ref=e371]
+                - cell [ref=e373]
+              - row "GenerationofRtmdocument10.docx, (File)" [ref=e376]:
+                - cell "GenerationofRtmdocument10.docx, (File)" [ref=e377]:
+                  - generic [ref=e378]:
+                    - img [ref=e379]
+                    - link "GenerationofRtmdocument10.docx, (File)" [ref=e384] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/GenerationofRtmdocument10.docx
+                      - text: GenerationofRtmdocument10.docx
+                - cell [ref=e385]
+                - cell [ref=e387]
+              - row "GenerationofRtmdocument2.docx, (File)" [ref=e390]:
+                - cell "GenerationofRtmdocument2.docx, (File)" [ref=e391]:
+                  - generic [ref=e392]:
+                    - img [ref=e393]
+                    - link "GenerationofRtmdocument2.docx, (File)" [ref=e398] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/GenerationofRtmdocument2.docx
+                      - text: GenerationofRtmdocument2.docx
+                - cell [ref=e399]
+                - cell [ref=e401]
+              - row "GenerationofRtmdocument7.docx, (File)" [ref=e404]:
+                - cell "GenerationofRtmdocument7.docx, (File)" [ref=e405]:
+                  - generic [ref=e406]:
+                    - img [ref=e407]
+                    - link "GenerationofRtmdocument7.docx, (File)" [ref=e412] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/GenerationofRtmdocument7.docx
+                      - text: GenerationofRtmdocument7.docx
+                - cell [ref=e413]
+                - cell [ref=e415]
+              - row "GenerationofRtmdocument8.docx, (File)" [ref=e418]:
+                - cell "GenerationofRtmdocument8.docx, (File)" [ref=e419]:
+                  - generic [ref=e420]:
+                    - img [ref=e421]
+                    - link "GenerationofRtmdocument8.docx, (File)" [ref=e426] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/GenerationofRtmdocument8.docx
+                      - text: GenerationofRtmdocument8.docx
+                - cell [ref=e427]
+                - cell [ref=e429]
+              - row "ReportGenerationofCsv.docx, (File)" [ref=e432]:
+                - cell "ReportGenerationofCsv.docx, (File)" [ref=e433]:
+                  - generic [ref=e434]:
+                    - img [ref=e435]
+                    - link "ReportGenerationofCsv.docx, (File)" [ref=e440] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/ReportGenerationofCsv.docx
+                      - text: ReportGenerationofCsv.docx
+                - cell [ref=e441]
+                - cell [ref=e443]
+              - row "TEST_PLAN.md, (File)" [ref=e446]:
+                - cell "TEST_PLAN.md, (File)" [ref=e447]:
+                  - generic [ref=e448]:
+                    - img [ref=e449]
+                    - link "TEST_PLAN.md, (File)" [ref=e454] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/TEST_PLAN.md
+                      - text: TEST_PLAN.md
+                - cell [ref=e455]
+                - cell [ref=e457]
+              - row "Validation_Report.docx, (File)" [ref=e460]:
+                - cell "Validation_Report.docx, (File)" [ref=e461]:
+                  - generic [ref=e462]:
+                    - img [ref=e463]
+                    - link "Validation_Report.docx, (File)" [ref=e468] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/Validation_Report.docx
+                      - text: Validation_Report.docx
+                - cell [ref=e469]
+                - cell [ref=e471]
+              - row "defects-template.xlsx, (File)" [ref=e474]:
+                - cell "defects-template.xlsx, (File)" [ref=e475]:
+                  - generic [ref=e476]:
+                    - img [ref=e477]
+                    - link "defects-template.xlsx, (File)" [ref=e482] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/defects-template.xlsx
+                      - text: defects-template.xlsx
+                - cell [ref=e483]
+                - cell [ref=e485]
+              - row "desktop.png, (File)" [ref=e488]:
+                - cell "desktop.png, (File)" [ref=e489]:
+                  - generic [ref=e490]:
+                    - img [ref=e491]
+                    - link "desktop.png, (File)" [ref=e496] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/desktop.png
+                      - text: desktop.png
+                - cell [ref=e497]
+                - cell [ref=e499]
+              - row "package-lock.json, (File)" [ref=e502]:
+                - cell "package-lock.json, (File)" [ref=e503]:
+                  - generic [ref=e504]:
+                    - img [ref=e505]
+                    - link "package-lock.json, (File)" [ref=e510] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/package-lock.json
+                      - text: package-lock.json
+                - cell [ref=e511]
+                - cell [ref=e513]
+              - row "package.json, (File)" [ref=e516]:
+                - cell "package.json, (File)" [ref=e517]:
+                  - generic [ref=e518]:
+                    - img [ref=e519]
+                    - link "package.json, (File)" [ref=e524] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/package.json
+                      - text: package.json
+                - cell [ref=e525]
+                - cell [ref=e527]
+              - row "playwright.config.js, (File)" [ref=e530]:
+                - cell "playwright.config.js, (File)" [ref=e531]:
+                  - generic [ref=e532]:
+                    - img [ref=e533]
+                    - link "playwright.config.js, (File)" [ref=e538] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/playwright.config.js
+                      - text: playwright.config.js
+                - cell [ref=e539]
+                - cell [ref=e541]
+              - row "requirements-template (1).xlsx, (File)" [ref=e544]:
+                - cell "requirements-template (1).xlsx, (File)" [ref=e545]:
+                  - generic [ref=e546]:
+                    - img [ref=e547]
+                    - link "requirements-template (1).xlsx, (File)" [ref=e552] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/requirements-template%20(1).xlsx
+                      - text: requirements-template (1).xlsx
+                - cell [ref=e553]
+                - cell [ref=e555]
+              - row "screenshot.png, (File)" [ref=e558]:
+                - cell "screenshot.png, (File)" [ref=e559]:
+                  - generic [ref=e560]:
+                    - img [ref=e561]
+                    - link "screenshot.png, (File)" [ref=e566] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/screenshot.png
+                      - text: screenshot.png
+                - cell [ref=e567]
+                - cell [ref=e569]
+              - row "test.png, (File)" [ref=e572]:
+                - cell "test.png, (File)" [ref=e573]:
+                  - generic [ref=e574]:
+                    - img [ref=e575]
+                    - link "test.png, (File)" [ref=e580] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/test.png
+                      - text: test.png
+                - cell [ref=e581]
+                - cell [ref=e583]
+              - row "testcases-template (1).xlsx, (File)" [ref=e586]:
+                - cell "testcases-template (1).xlsx, (File)" [ref=e587]:
+                  - generic [ref=e588]:
+                    - img [ref=e589]
+                    - link "testcases-template (1).xlsx, (File)" [ref=e594] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/testcases-template%20(1).xlsx
+                      - text: testcases-template (1).xlsx
+                - cell [ref=e595]
+                - cell [ref=e597]
+              - row "testexecutions-template (1).xlsx, (File)" [ref=e600]:
+                - cell "testexecutions-template (1).xlsx, (File)" [ref=e601]:
+                  - generic [ref=e602]:
+                    - img [ref=e603]
+                    - link "testexecutions-template (1).xlsx, (File)" [ref=e608] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/testexecutions-template%20(1).xlsx
+                      - text: testexecutions-template (1).xlsx
+                - cell [ref=e609]
+                - cell [ref=e611]
+              - row "~$nerationofRtmdocument10.docx, (File)" [ref=e614]:
+                - cell "~$nerationofRtmdocument10.docx, (File)" [ref=e615]:
+                  - generic [ref=e616]:
+                    - img [ref=e617]
+                    - link "~$nerationofRtmdocument10.docx, (File)" [ref=e622] [cursor=pointer]:
+                      - /url: /hariharansuresh5-afk/AutomatedCsv/blob/master/~%24nerationofRtmdocument10.docx
+                      - text: ~$nerationofRtmdocument10.docx
+                - cell [ref=e623]
+                - cell [ref=e625]
+      - generic [ref=e630]:
+        - generic [ref=e631]:
+          - heading "About" [level=2] [ref=e632]
+          - generic [ref=e633]: No description, website, or topics provided.
+          - link "Activity" [ref=e635] [cursor=pointer]:
+            - /url: /hariharansuresh5-afk/AutomatedCsv/activity
+            - img [ref=e636]
+            - text: Activity
+          - heading "Stars" [level=3] [ref=e638]
+          - generic [ref=e640]:
+            - img [ref=e641]
+            - strong [ref=e643]: "0"
+            - text: stars
+          - heading "Watchers" [level=3] [ref=e644]
+          - generic [ref=e646]:
+            - img [ref=e647]
+            - strong [ref=e649]: "0"
+            - text: watching
+          - heading "Forks" [level=3] [ref=e650]
+          - link "0 forks" [ref=e652] [cursor=pointer]:
+            - /url: /hariharansuresh5-afk/AutomatedCsv/forks
+            - img [ref=e653]
+            - strong [ref=e656]: "0"
+            - text: forks
+          - link "Report repository" [ref=e658] [cursor=pointer]:
+            - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fhariharansuresh5-afk%2FAutomatedCsv&report=hariharansuresh5-afk+%28user%29
+        - heading "Releases" [level=2] [ref=e660]
+        - heading "Packages" [level=2] [ref=e664]
+        - heading "Contributors" [level=2] [ref=e667]
+        - heading "Languages" [level=2] [ref=e670]
+  - contentinfo [ref=e673]:
+    - heading "Footer" [level=2] [ref=e674]
+    - generic [ref=e675]:
+      - generic [ref=e676]:
+        - link "GitHub Homepage" [ref=e677] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e678]
+        - generic [ref=e680]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e681]:
+        - heading "Footer navigation" [level=3] [ref=e682]
+        - list "Footer navigation" [ref=e683]:
+          - listitem [ref=e684]:
+            - link "Terms" [ref=e685] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e686]:
+            - link "Privacy" [ref=e687] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e688]:
+            - link "Security" [ref=e689] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e690]:
+            - link "Status" [ref=e691] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e692]:
+            - link "Community" [ref=e693] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e694]:
+            - link "Docs" [ref=e695] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e696]:
+            - link "Contact" [ref=e697] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e698]:
+            - button "Manage cookies" [ref=e700] [cursor=pointer]
+          - listitem [ref=e701]:
+            - button "Do not share my personal information" [ref=e703] [cursor=pointer]

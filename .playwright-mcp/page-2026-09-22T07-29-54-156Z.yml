@@ -1,0 +1,161 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e9]:
+      - heading "Navigation Menu" [level=2] [ref=e10]
+      - generic [ref=e11]:
+        - link "Homepage" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+        - generic [ref=e16]:
+          - navigation "Global" [ref=e17]:
+            - list [ref=e18]:
+              - listitem [ref=e19]:
+                - button "Platform" [ref=e21] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e22]
+              - listitem [ref=e24]:
+                - button "Solutions" [ref=e26] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e27]
+              - listitem [ref=e29]:
+                - button "Resources" [ref=e31] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e32]
+              - listitem [ref=e34]:
+                - button "Open Source" [ref=e36] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e37]
+              - listitem [ref=e39]:
+                - button "Enterprise" [ref=e41] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e42]
+              - listitem [ref=e44]:
+                - link "Pricing" [ref=e45] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to, type / to search" [ref=e48] [cursor=pointer]:
+              - img [ref=e52]
+            - link "Sign in" [ref=e55] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fhariharansuresh5-afk%2FAutomatedCsv%2Fblob%2Fmain%2FTEST_PLAN.md
+              - generic [ref=e57]: Sign in
+            - link "Sign up" [ref=e58] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=hariharansuresh5-afk%2FAutomatedCsv
+              - generic [ref=e60]: Sign up
+            - button "Appearance settings" [ref=e61] [cursor=pointer]:
+              - img [ref=e63]
+  - main [ref=e68]:
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - img [ref=e73]
+          - link "hariharansuresh5-afk" [ref=e76] [cursor=pointer]:
+            - /url: /hariharansuresh5-afk
+          - generic [ref=e77]: /
+          - strong [ref=e78]:
+            - link "AutomatedCsv" [ref=e79] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv
+          - generic [ref=e80]: Public
+        - generic [ref=e81]:
+          - list:
+            - listitem [ref=e82]:
+              - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhariharansuresh5-afk%2FAutomatedCsv
+                - img [ref=e84]
+                - text: Notifications
+            - listitem [ref=e86]:
+              - link "Fork 0" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhariharansuresh5-afk%2FAutomatedCsv
+                - img [ref=e88]
+                - text: Fork
+                - generic "0" [ref=e90]
+            - listitem [ref=e91]:
+              - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhariharansuresh5-afk%2FAutomatedCsv
+                - img [ref=e94]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e96]: "0"
+      - navigation "Repository" [ref=e97]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Code" [ref=e100] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv
+              - img [ref=e101]
+              - generic [ref=e103]: Code
+          - listitem [ref=e104]:
+            - link "Issues" [ref=e105] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/issues
+              - img [ref=e106]
+              - generic [ref=e109]: Issues
+          - listitem [ref=e110]:
+            - link "Pull requests" [ref=e111] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/pulls
+              - img [ref=e112]
+              - generic [ref=e114]: Pull requests
+          - listitem [ref=e115]:
+            - link "Actions" [ref=e116] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/actions
+              - img [ref=e117]
+              - generic [ref=e119]: Actions
+          - listitem [ref=e120]:
+            - link "Projects" [ref=e121] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/projects
+              - img [ref=e122]
+              - generic [ref=e124]: Projects
+          - listitem [ref=e125]:
+            - link "Security and quality" [ref=e126] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/security
+              - img [ref=e127]
+              - generic [ref=e129]: Security and quality
+          - listitem [ref=e130]:
+            - link "Insights" [ref=e131] [cursor=pointer]:
+              - /url: /hariharansuresh5-afk/AutomatedCsv/pulse
+              - img [ref=e132]
+              - generic [ref=e134]: Insights
+    - generic [ref=e148]:
+      - img [ref=e150]
+      - heading "404 - page not found" [level=2] [ref=e153]
+      - paragraph [ref=e154]:
+        - generic [ref=e155]:
+          - text: Cannot find a valid ref in
+          - generic [ref=e156]: main/TEST_PLAN.md
+      - link "Go to default branch" [ref=e158] [cursor=pointer]:
+        - /url: /hariharansuresh5-afk/AutomatedCsv?files=1
+        - generic [ref=e160]: Go to default branch
+  - contentinfo [ref=e162]:
+    - heading "Footer" [level=2] [ref=e163]
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - link "GitHub Homepage" [ref=e166] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e167]
+        - generic [ref=e169]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e170]:
+        - heading "Footer navigation" [level=3] [ref=e171]
+        - list "Footer navigation" [ref=e172]:
+          - listitem [ref=e173]:
+            - link "Terms" [ref=e174] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e175]:
+            - link "Privacy" [ref=e176] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e177]:
+            - link "Security" [ref=e178] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e179]:
+            - link "Status" [ref=e180] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e181]:
+            - link "Community" [ref=e182] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e183]:
+            - link "Docs" [ref=e184] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e185]:
+            - link "Contact" [ref=e186] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e187]:
+            - button "Manage cookies" [ref=e189] [cursor=pointer]
+          - listitem [ref=e190]:
+            - button "Do not share my personal information" [ref=e192] [cursor=pointer]
