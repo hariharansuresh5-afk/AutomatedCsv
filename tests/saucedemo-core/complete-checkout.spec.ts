@@ -37,7 +37,7 @@ test.describe('Core end-user shopping operations', () => {
 
     // 3. Click Finish.
     await page.locator('[data-test="finish"]').click();
-
+                    
     // expect: The Checkout: Complete page shows Thank you for your order! and the dispatch message.
     await expect(page.getByText('Thank you for your order!')).toBeVisible();
     await expect(page.getByText('Your order has been dispatched, and will arrive just as fast as the pony can get there!')).toBeVisible();

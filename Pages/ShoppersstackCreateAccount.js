@@ -18,6 +18,11 @@ constructor(page) {
      await this.password.fill(password);
      await this.confirmpassword.fill(confirmpassword);
      await this.radiobutton.check();
+     await this.page.pdf({
+    path: 'test-results/PublishResult.pdf',
+    format: 'A4',
+    printBackground: true
+    });
          
     }
   }
